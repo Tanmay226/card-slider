@@ -1,0 +1,200 @@
+header , .hero-banner-area{
+    display: none;
+}
+
+/* card sec start */
+.card-title-one{
+    font-family: Work Sans;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 43px;
+    text-align: left;
+    color: #271965;
+    margin: 0;
+}
+.text-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+.common-btn{
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.42px;
+    text-align: left;
+    color: #3F2E8C;
+    transition: all 0.3s;
+    padding: 12px 18px;
+    border: 1px solid #3F2E8C;
+    border-radius: 5px;
+}
+.common-btn:hover {
+    color: #fff;
+    background: #3F2E8C;
+}
+section.card-sec {
+    padding: 50px 15px;
+    /* border: 1px solid red; */
+}
+.card-box .card-title{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.11px;
+    text-align: center;
+    color: #271965;
+    margin: 25px 0 0;
+}
+.card-box .card-text{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    padding: 7px 0 20px;
+    color: #777777;
+    margin: 0;
+}
+
+.card-box .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.card-box .card {
+    background: #E9F3FF;
+    border-radius: 5px;
+    padding: 25px 15px 30px;
+    border: none;
+}
+
+.card-box img.card-img-top {
+    max-width: 70%;
+    max-height: 192px;
+    margin: 0 auto;
+    object-fit: scale-down;
+}
+@media only screen and (max-width: 1200px) {
+    .card-box img.card-img-top {
+        max-height: 152px;}
+}
+@media only screen and (max-width: 576px) {
+    .card-title-one {
+        font-size: 19px;
+        line-height: 26px;}
+        .common-btn {
+            padding: 11px 15px;}
+            section.card-sec {
+                padding: 34px 15px;}
+}
+/* card sec end */
+
+/* tab sec start */
+.tab-sec{
+    background: #3F2E8C;
+    padding: 40px 15px 60px;
+}
+.tab-sec h2.card-title-one {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.tab-box #nav-tab button.nav-link {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.42px;
+    text-align: left;
+    color: #fff;
+}
+
+.tab-box div#nav-tab {
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    border-bottom: none;
+    padding: 27px 0 40px;
+}
+.tab-box .nav-tabs .nav-item.show button.nav-link, .tab-box #nav-tab button.nav-link.active {
+    color: #3F2E8C;}
+.tab-sec .card-box img.card-img-top {
+    max-width: 100%;
+    height: 100%;
+}
+.tab-sec .card-box .card {
+    height: 100%;
+    background: #fff;
+}
+/* tab sec end */
+
+/* slide sec start */
+.logo-sec{
+    padding: 48px 15px 36px;
+}
+.logo-slider img.logo-img {
+    box-shadow: 0px 9px 16px 0px #00000014;
+    background: #fff;
+    border-radius: 20px;
+    padding: 25px  30px;
+    object-fit: scale-down;
+    /* display: block; */
+    /* margin: 0; */
+}
+
+.logo-sec h2.card-title-one {
+    text-align: center;
+}
+.logo-slider{
+    width: 95%;
+    padding: 20px 50px 30px;
+    margin: 0 auto;
+}
+
+
+.logo-slider .item {
+    padding: 24px 10px;
+}
+/* slide sec end  */
+
+
+.logo-slider .owl-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo-sec .logo-slider.owl-carousel .owl-nav button {
+    transition: all 0.3s;
+    height: 49px;
+    width: 49px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #3F2E8C;
+    border-radius: 10px;
+    color: #3F2E8C;
+    font-size: 15px;
+}
+
+.logo-sec .logo-slider.owl-carousel .owl-nav button:hover {
+    color: #fff;
+    background: #220F77;
+}
+@media only screen and (max-width: 1200px) {
+.logo-slider{
+    width: 100%;
+}}
+@media only screen and (max-width: 576px) {
+.logo-slider{
+    padding: 10px 0;
+}
+}
+
